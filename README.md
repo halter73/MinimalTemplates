@@ -69,7 +69,6 @@ namespace Empty
 ### Program.cs
 
 ```c#
-using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Hosting;
 
@@ -187,8 +186,9 @@ namespace Api
 
 ## After
 
+### Program.cs
+
 ```c#
-using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -314,6 +314,8 @@ namespace Razor
 ```
 
 ## After
+
+### Program.cs
 
 ```c#
 using Microsoft.AspNetCore.Builder;
