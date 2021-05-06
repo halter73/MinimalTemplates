@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Empty", "Empty\Empty.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Api", "Api\Api.csproj", "{7F8D98CA-9BB1-41C4-BCBC-A84DD2C76601}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Razor", "Razor\Razor.csproj", "{F8991AAE-9FC2-40D3-8B7A-29A610B78EFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7F8D98CA-9BB1-41C4-BCBC-A84DD2C76601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F8D98CA-9BB1-41C4-BCBC-A84DD2C76601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F8D98CA-9BB1-41C4-BCBC-A84DD2C76601}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8991AAE-9FC2-40D3-8B7A-29A610B78EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8991AAE-9FC2-40D3-8B7A-29A610B78EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8991AAE-9FC2-40D3-8B7A-29A610B78EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8991AAE-9FC2-40D3-8B7A-29A610B78EFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
