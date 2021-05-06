@@ -2,7 +2,8 @@ using System;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.Hosting;
 
-await using var app = WebApplication.Create(args);
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
 {
@@ -11,4 +12,4 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/", (Func<string>)(() => "Hello World!"));
 
-await app.RunAsync();
+app.Run();
