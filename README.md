@@ -64,7 +64,7 @@ if (app.Environment.IsDevelopment())
     app.UseDeveloperExceptionPage();
 }
 
-app.MapGet("/", () => "Hello World!");
+app.MapGet("/", (Func<string>)(() => "Hello World!"));
 
 app.Run();
 ```
